@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import confetti from "canvas-confetti"
 
 /* components */
@@ -7,7 +7,7 @@ import { WinnerModal } from "./components/WinnerModal"
 import { ButtonInitialTurn, ButtonResetGame } from "./components/Buttons"
 
 /* constants */
-import { TURNS, WINNER_COMBOS } from "./constants"
+import { TURNS } from "./constants"
 
 /* logic */
 import { checkWinnerFrom, checkEndGame } from "./logic/board"

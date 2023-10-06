@@ -1,6 +1,7 @@
 # Ignorar directorio de dependencias y logs
 node_modules/
 *.log
+package-lock.json
 
 # Ignorar archivos y directorios generados por Vite
 dist/

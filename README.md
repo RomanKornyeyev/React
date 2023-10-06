@@ -261,3 +261,6 @@ Esto nos facilita mucho las cosas y nos ahorra mucho tiempo.
 Cada vez que se renderiza de nuevo un elemento (por un cambio de estado, por ejemplo), todos los componentes que estén por debajo, se vuelven a renderizar también en el DOM virtual.
 
 Importante también no usar Math.random(), Date.now() y todo este tipo de chapuzas para asignárselas como keys a los elementos. Lo ideal es que la key de un elemento sea el id/uuid que venga de una base de datos
+
+
+npm install standard -D
