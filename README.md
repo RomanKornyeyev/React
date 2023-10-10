@@ -264,3 +264,6 @@ Importante también no usar Math.random(), Date.now() y todo este tipo de chapuz
 
 
 npm install standard -D
+
+### Sitios para despliegues en producción sencillos
+- [netlify](https://app.netlify.com/drop)
